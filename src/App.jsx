@@ -1,5 +1,6 @@
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
+import Marketplace from "./Components/Marketplace";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Totalizer from "./Components/Totalizer";
@@ -20,6 +21,7 @@ function App() {
           </>
           } />
           <Route path="/totalizer" element={<Totalizer />} />
+          <Route path="/marketplace" element={<Marketplace />} />
         </Routes>
       </BrowserRouter>
       <Footer />

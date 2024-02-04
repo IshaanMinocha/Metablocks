@@ -13,7 +13,7 @@ function Hero() {
                 <p className='text-xl text-center my-5 pt-10 px-40'>
                     Designing Realities, Building Dreams                </p>
                 <div className="flex space-x-4 justify-center">
-                    <a href="#features-section" className="text-white duration-300 bg-black rounded-full font-semibold m-2 p-3 px-10 hover:bg-transparent border-2 border-black">View Our Services</a>
+                    <a href="#about-section" className="text-white duration-300 bg-black rounded-full font-semibold m-2 p-3 px-10 hover:bg-transparent border-2 border-black">View Our Services</a>
                 </div>
             </div>
             <div className="container mx-auto mt-8 text-center scroll-smooth">

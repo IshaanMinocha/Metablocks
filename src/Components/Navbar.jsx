@@ -14,6 +14,7 @@ function Navbar() {
                 <div className="flex space-x-4">
                     <a href="/" className="text-white font-semibold m-2 p-3 text-lg duration-200 hover:opacity-80">Home</a>
                     <a href="/totalizer" className="text-white font-semibold m-2 p-3 text-lg duration-200 hover:opacity-80">Totalizer</a>
+                    <a href="/marketplace" className="text-white font-semibold m-2 p-3 text-lg duration-200 hover:opacity-80">Marketplace</a>
                     <a href="#features-section" className="text-white font-semibold m-2 p-3 text-lg duration-200 hover:opacity-80">Features</a>
                     <a href="#" className="text-white border-solid rounded-full border-2 border-black font-semibold m-2 p-3 text-lg duration-200 hover:bg-black">Download</a>
                 </div>
