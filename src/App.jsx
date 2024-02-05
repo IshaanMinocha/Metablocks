@@ -1,5 +1,6 @@
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
+import Chatbot from "./Components/Chatbot";
 import Marketplace from "./Components/Marketplace";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
@@ -22,6 +23,7 @@ function App() {
           } />
           <Route path="/totalizer" element={<Totalizer />} />
           <Route path="/marketplace" element={<Marketplace />} />
+          <Route path="/chatbot" element={<Chatbot />} />
         </Routes>
       </BrowserRouter>
       <Footer />
