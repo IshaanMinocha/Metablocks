@@ -16,7 +16,7 @@ const Bhk3 = () => {
       <div className="mt-8 z-10">
         <h3 className="text-xl font-bold mb-4"></h3>
         <model-viewer
-          src='/1bhk.glb'
+          src='/3bhk.glb'
           style={{
             width: '800px',
             margin: "auto",
