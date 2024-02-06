@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
     return (
-        <nav className="bg-[url('/gradient-bg.jpg')] p-1 sticky top-0 opacity-90 z-50">
+        <nav className="bg-[url('/gradient-bg.jpg')] p-1 sticky top-0 z-50">
             <div className="container mx-auto flex items-center justify-between">
                 <div className="logo text-white text-2xl font-bold">Metablocks</div>
                 {/* <div class="text-4xl font-extrabold">
