@@ -1,4 +1,5 @@
-# MetaBlocks: 3D Architectural & Designs Solution using Metaverse
+# MetaBlocks
+## 3D Architectural & Designs Solution using Extended Reality
 
 ## Overview
 
