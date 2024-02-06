@@ -1,28 +1,27 @@
 import React from 'react';
 
 const Bhk1 = () => {
+
+    const selectedAddons = location.state?.selectedAddons || [];
+
   return (
     <div className="container mx-auto mt-8">
-      <h2 className="text-3xl font-bold mb-4">Flat Type: 1 BHK</h2>
-      <p className="text-gray-600">
-        Components Selected:
-      </p>
+      <h2 className="text-3xl font-bold mb-4">Flat Type: "1 BHK"</h2>
+        <p className="text-gray-600">Selected Components: {selectedAddons.join(', ')}</p>
 
       <ul className="list-disc mt-4 ml-6">
-        <li>{1}</li>
-        <li>{2}</li>
-        <li>{3}</li>
+    
       </ul>
 
       <div className="mt-8 z-10">
-        <h3 className="text-xl font-bold mb-4">Visualize Sustainability</h3>
+        <h3 className="text-xl font-bold mb-4"></h3>
         <model-viewer
           src='/1bhk.glb'
           style={{
-            width: '80%',
+            width: '800px',
             margin: "auto",
             height: '400px',
-            backgroundColor: '#70BCD1',
+            backgroundColor: '#3d35b1',
             '--poster-color': '#ffffff00',
           }}
           ios-src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.usdz?v=1569545377878"
@@ -37,12 +36,12 @@ const Bhk1 = () => {
 
       <div className="my-8">
         <a
-          href="your_vr_house_url"
+          href="https://www.spatial.io/s/SoberSphere-655c8e28c41d46b41c94c3e3?share=0"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-300"
+          className="bg-purple-500 text-white px-4 py-2 text-2xl font-semibold rounded-md hover:bg-purple-700 transition duration-300 flex justify-center"
         >
-          Visit House in VR/3D/Metaverse
+          Visit in Metaverse
         </a>
       </div>
     </div>

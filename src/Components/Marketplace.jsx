@@ -38,7 +38,7 @@ function Product(props) {
                             width: '80%',
                             margin: "20px auto 20px auto",
                             height: '400px',
-                            backgroundColor: '#70BCD1',
+                            backgroundColor: '#3d35b1',
                             '--poster-color': '#ffffff00',
                         }}
                         ios-src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.usdz?v=1569545377878"
