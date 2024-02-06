@@ -12,6 +12,7 @@ import Industrial from "./Components/Industrial";
 import Features from "./Components/Features";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import TextTo3D from "./Components/textto3d";
+import Visualization from "./Components/Visualization";
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
           <Route path="/3bhk" element={<Bhk3 />} />
           <Route path="/industrial" element={<Industrial />} />
           <Route path="/textto3d" element={<TextTo3D />} />
+          <Route path="/visualization" element={<Visualization />} />
           <Route path="/chatbot" element={<Chatbot />} />
         </Routes>
       </BrowserRouter>
